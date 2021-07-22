@@ -1,3 +1,8 @@
+/* Common */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Buttons */
 .btn {
     border-radius: 20px;
@@ -5,6 +10,25 @@
 .btn_black {
     color: #fff;
     background-color: #363636;
+}
+.btn_red {
+    color: #fff;
+    background-color: #cd3d0f;
+}
+
+/* Typo */
+h2, p {
+    color: #fff;
+}
+p {
+    font-size: 12px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+    margin-bottom: 0px;
 }
 
 /* Header */
@@ -34,4 +58,32 @@ header {
 }
 .header_bottom .btn {
     margin-left: 20px;
+}
+
+/* Main */
+/* Hero */
+.hero {
+    margin-top: 101px;
+    width: 100%;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 330px 0px 45px 0px;
+}
+.hero img {
+    width: 60%;
+    margin-bottom: 50px;
+}
+.hero_bottom {
+    margin-bottom: 35px;
+}
+.hero_bottom img {
+    width: 100%;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+/* Hover */
+.header_bottom .btn:hover {
+    color: #fff;
 }
