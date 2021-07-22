@@ -221,6 +221,42 @@ header {
     margin-bottom: 40px;
 }
 
+/* Footer */
+footer {
+    padding: 75px 0px;
+    background-color: #00439c;
+}
+footer .logo {
+    display: block;
+    width: 95px;
+    margin-bottom: 35px;
+}
+footer .globe {
+    width: 20px;
+}
+footer span {
+    color: #fff;
+    font-size: 12px;
+}
+footer .col-12:first-child {
+    margin-bottom: 35px;
+}
+footer ul {
+    list-style: none;
+}
+footer ul a {
+    text-decoration: none;
+    font-size: 12px;
+}
+.sie_logo {
+    display: block;
+    width: 130px;
+    margin: 50px 0px 8px 0px;
+}
+footer a {
+    color: #fff;
+}
+
 /* Hover */
 .header_bottom .btn:hover {
     color: #fff;
