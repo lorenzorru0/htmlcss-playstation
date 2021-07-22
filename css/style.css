@@ -11,6 +11,9 @@ body {
 img {
     width: 100%;
 }
+.wrapper {
+    margin: auto;
+}
 
 /* Buttons */
 .btn {
@@ -202,7 +205,17 @@ header {
     margin-bottom: 35px;
 }
 
-
+/* Social */
+.social {
+    padding: 70px 0px;
+}
+.social h2 {
+    color: #1f1f1f;
+}
+.social a {
+    display: inline-block;
+    margin-bottom: 40px;
+}
 
 /* Hover */
 .header_bottom .btn:hover {
@@ -225,5 +238,10 @@ header {
     }
     .psNow .col-12 img {
         margin-top: 35px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .wrapper {
+        max-width: 550px;
     }
 }
