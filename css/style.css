@@ -27,6 +27,7 @@ img {
 .btn_blue {
     color: #fff;
     background-color: #2d64e6;
+    font-size: 12px;
 }
 
 /* Typo */
@@ -104,9 +105,6 @@ header {
     font-size: 12px;
     margin-bottom: 10px;
 }
-.ps5 .btn {
-    font-size: 12px;
-}
 .ps5_thumb {
     border-bottom: 1px solid #4095da;
 }
@@ -138,6 +136,22 @@ header {
 }
 .new_releases img {
     border-radius: 15px;
+}
+
+/* Esplora PS4 */
+.ps4 {
+    padding: 80px 0px;
+}
+.ps4 h2 {
+    color: #1f1f1f;
+    padding-bottom: 25px;
+}
+.ps4 p {
+    color: #bbbbbb;
+    font-size: 16px;
+}
+.ps4 img {
+    margin-top: 70px;
 }
 
 /* Hover */
