@@ -29,6 +29,11 @@ img {
     background-color: #2d64e6;
     font-size: 12px;
 }
+.btn_gray {
+    color: #6a8de3;
+    background-color: #d9dadc;
+    font-size: 12px;
+}
 
 /* Typo */
 h2, p {
@@ -154,10 +159,33 @@ header {
     margin-top: 70px;
 }
 
+/* Playstation plus */
+.psPlus {
+    background-color: #bebcbb;
+    /* padding: 45px 0px; */
+}
+.psPlus .col-12 img {
+    width: 60%;
+    margin-bottom: 35px;
+}
+.psPlus p {
+    color: #1f1f1f;
+}
+
 /* Hover */
 .header_bottom .btn:hover {
     color: #fff;
 }
 .ps5 .col-4:not(.ps5_thumb):hover {
     opacity: 1;
+}
+
+/* Media query */
+@media screen and  (max-width: 768px) {
+    .psPlus .btn {
+        margin-bottom: 35px;
+    }
+    .psPlus .col-12 img {
+        margin-top: 35px;
+    }
 }
