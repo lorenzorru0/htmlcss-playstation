@@ -2,6 +2,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+.banner {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    padding: 330px 0px 45px 0px;
+}
 
 /* Buttons */
 .btn {
@@ -68,11 +74,7 @@ header {
 /* Hero */
 .hero {
     margin-top: 101px;
-    width: 100%;
     background-image: url(../img/jumbo-bg.png);
-    background-size: cover;
-    background-position: center;
-    padding: 330px 0px 45px 0px;
 }
 .hero img {
     width: 60%;
@@ -111,6 +113,11 @@ header {
 }
 .ps5 .col-4:not(.ps5_thumb) {
     opacity: 0.8;
+}
+
+/* It takes two */
+.it2 {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
 /* Hover */
