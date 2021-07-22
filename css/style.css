@@ -15,6 +15,10 @@ body {
     color: #fff;
     background-color: #cd3d0f;
 }
+.btn_blue {
+    color: #fff;
+    background-color: #2d64e6;
+}
 
 /* Typo */
 h2, p {
@@ -27,7 +31,7 @@ p {
 }
 h2 {
     font-size: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 45px;
     margin-bottom: 0px;
 }
 
@@ -74,16 +78,45 @@ header {
     width: 60%;
     margin-bottom: 50px;
 }
-.hero_bottom {
-    margin-bottom: 35px;
-}
 .hero_bottom img {
     width: 100%;
     border-radius: 15px;
     margin-top: 35px;
 }
 
+/* PS5 */
+.ps5 {
+    padding-top: 120px;
+}
+.ps5 h2 {
+    color: #1f1f1f;
+}
+.ps5 p {
+    color: #bbbbbb;
+    font-size: 16px;
+}
+.ps5 span {
+    color: #167ed2;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.ps5 .btn {
+    font-size: 12px;
+}
+.ps5 img {
+    width: 100%;
+}
+.ps5_thumb {
+    border-bottom: 1px solid #4095da;
+}
+.ps5 .col-4:not(.ps5_thumb) {
+    opacity: 0.8;
+}
+
 /* Hover */
 .header_bottom .btn:hover {
     color: #fff;
+}
+.ps5 .col-4:not(.ps5_thumb):hover {
+    opacity: 1;
 }
