@@ -172,6 +172,22 @@ header {
     color: #1f1f1f;
 }
 
+/* Discounts */
+.discounts {
+    padding: 75px 0px;
+}
+.discounts h2 {
+    color: #1f1f1f;
+    padding-bottom: 25px;
+}
+.discounts p {
+    color: #bbbbbb;
+    font-size: 16px;
+}
+.discounts img {
+    margin-top: 40px;
+}
+
 /* Hover */
 .header_bottom .btn:hover {
     color: #fff;
