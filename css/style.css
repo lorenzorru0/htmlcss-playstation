@@ -34,6 +34,12 @@ img {
     background-color: #d9dadc;
     font-size: 12px;
 }
+.btn_white {
+    color: #000;
+    background-color: #f5f5f5;
+    font-size: 12px;
+}
+
 
 /* Typo */
 h2, p {
@@ -162,7 +168,6 @@ header {
 /* Playstation plus */
 .psPlus {
     background-color: #bebcbb;
-    /* padding: 45px 0px; */
 }
 .psPlus .col-12 img {
     width: 60%;
@@ -188,6 +193,17 @@ header {
     margin-top: 40px;
 }
 
+/* Playstation plus */
+.psNow {
+    background-color: #161c3b;
+}
+.psNow .col-12 img {
+    width: 60%;
+    margin-bottom: 35px;
+}
+
+
+
 /* Hover */
 .header_bottom .btn:hover {
     color: #fff;
@@ -202,6 +218,12 @@ header {
         margin-bottom: 35px;
     }
     .psPlus .col-12 img {
+        margin-top: 35px;
+    }
+    .psNow .btn {
+        margin-bottom: 35px;
+    }
+    .psNow .col-12 img {
         margin-top: 35px;
     }
 }
